@@ -1,0 +1,478 @@
+header {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+}
+
+body {
+  background: #141E30;
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+  border-width: 0px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: verdana;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 30px;
+  color: orange;
+  text-shadow: 0px 0px 100px black;
+}
+
+.image {
+  background-image: url('sunsetvan.jpg');
+  /*background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/13323338_10154973731208009_753740330993755571_o.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=366386a466ae688042450a0328c07e68&oe=5CEBC730");*/
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  border-bottom: 10px solid black;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+}
+.brandlogo {
+  width: 50%
+}
+h2 {
+  color: white;
+
+  font-family: verdana;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top:125px;
+  margin: 10px;
+  text-shadow: 0px 0px 40px white;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 80px;
+  color: orange;
+  text-shadow: 0px 0px 60px black;
+  /*text-align: center;*/
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: orange;
+  text-shadow: 0px 0px 60px black;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 35px;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  /*text-align: center;*/
+}
+
+nav {
+  display: flex;
+  flex: 15%;
+  flex-direction: column;
+  background-color: white;
+}
+
+nav div {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav div:hover {
+  background-color: orange;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+article {
+  flex: 85%
+}
+
+footer {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  padding-top: 30px;
+  text-align: center;
+  color: orange;
+  text-shadow: 0px 0px 60px black;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 14px;
+  margin-right: 30px;
+  bottom: 15%;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  width: 9%;
+  background-color: white;
+  color: black;
+  opacity: .75;
+  text-align: right;
+}
+
+.quote {
+  font-style: italic;
+  margin-left: 150px;
+  margin-right: 200px;
+  padding: 50px;
+}
+
+.email {
+  text-align: center;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.next {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panImg {
+  padding: 30;
+  width: 100%;
+  height: auto;
+}
+
+.articles {
+  flex-direction: column;
+}
+.form{
+  border-radius: 10px;
+  width: 70%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.label {
+  font-family: Helvetica;
+  font-size: 25px;
+  color: orange;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.info {
+  width: 100%;
+  display:inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+  font-size: 20px;
+  font weight: bolder;
+}
+.question {
+  display:inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  width:100%;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-align: center;
+
+
+}
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+@media only screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+  }
+
+  body {
+    background: #141E30;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+    border-width: 0px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-family: verdana;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    color: orange;
+    text-shadow: 0px 0px 100px black;
+  }
+
+  .image {
+    background-image: url('sunsetvan.jpg');
+    /*background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/13323338_10154973731208009_753740330993755571_o.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=366386a466ae688042450a0328c07e68&oe=5CEBC730");*/
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 0;
+    border-bottom: 10px solid black;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+  }
+  .brandlogo {
+    width: 50%;
+  }
+
+  h2 {
+    color: white;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 125px;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 0px 0px 40px white;
+  }
+
+  h3 {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 80px;
+    color: orange;
+    text-shadow: 0px 0px 60px black;
+    /*text-align: center;*/
+  }
+
+  h4 {
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: orange;
+    text-shadow: 0px 0px 60px black;
+  }
+
+  p {
+    font-family: Helvetica;
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*text-align: center;*/
+  }
+
+  nav {
+    display: flex;
+    flex: 15%;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  nav div {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  nav div:hover {
+    background-color: orange;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+
+  article {
+    flex: 85%
+  }
+
+  footer {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    padding-top: 30px;
+    text-align: center;
+    color: orange;
+    text-shadow: 0px 0px 60px black;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+  }
+
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 14px;
+    margin-right: 30px;
+    bottom: 15%;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    width: 9%;
+    background-color: white;
+    color: black;
+    opacity: .75;
+    text-align: right;
+  }
+
+  .quote {
+    font-style: italic;
+    margin-left: 150px;
+    margin-right: 200px;
+    padding: 50px;
+  }
+
+  .email {
+    text-align: center;
+    font-weight: 600;
+    padding: 30px;
+  }
+
+  .next {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .panImg {
+    width: 50%;
+    height: auto;
+  }
+
+  .articles {
+    flex-direction: column;
+  }
+  .form{
+    border-radius: 10px;
+    width: 70%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .label {
+    font-family: Helvetica;
+    font-size: 25px;
+    color: orange;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-weight: bolder;
+  }
+  .info {
+    width: 100%;
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    font-size: 20px;
+    font weight: bolder;
+  }
+  .question {
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 15px;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    width:100%;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+
+
+  }
+  input[type=submit]:hover {
+  background-color: #45a049;
+  }
+}
